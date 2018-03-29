@@ -23,22 +23,22 @@ public class ManagementTool {
                         key = scanner.nextLine();
                         System.out.print("Value:\t");
                         value = scanner.nextLine();
-                        System.out.println("Res:\t" + map.put(key, value));
+                        map.put(key, value);
                         break;
                     case "GET":
                         System.out.print("Key:\t");
                         key = scanner.nextLine();
-                        System.out.println("Res:\t" + map.get(key));
+                        map.get(key);
                         break;
                     case "REMOVE":
                         System.out.print("Key:\t");
                         key = scanner.nextLine();
-                        System.out.println("Res:\t" + map.remove(key));
+                        map.remove(key);
                         break;
                     case "CONTAINS":
                         System.out.print("Key:\t");
                         key = scanner.nextLine();
-                        System.out.println("Res:\t" + map.containsKey(key));
+                        map.containsKey(key);
                         break;
                     case "STATE":
                         map.printState();
