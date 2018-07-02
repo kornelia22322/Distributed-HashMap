@@ -11,15 +11,10 @@ W wyniku realizacji zadania powinna powstać implementacja klasy DistributedMap,
 
 public interface SimpleStringMap {
     boolean containsKey(String key);
-
     String get(String key);
-
     String put(String key, String value);
-
     String remove(String key);
-}
-
- 
+} 
 
 Powinna też zostać opracowana przykładowa aplikacja korzystająca z rozproszonej tablicy haszującej. Funkcjonalność aplikacji powinna umożliwiać interaktywną interakcję i eksponować metody zawarte w interfejsie implementowanej tablicy.
 
